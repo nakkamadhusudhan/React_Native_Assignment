@@ -2,7 +2,7 @@ import {put, takeLatest} from "redux-saga/effects";
 import * as actionCreators from "../actionCreators/product"
 import {GET_PRODUCTS, ADD_PRODUCT} from "../actionTypes/product";
 
-let URI = "http://10.110.60.74:4000";
+let URI = "http://10.110.60.81:4000";
 
 function* getProducts(action) {
     try {
