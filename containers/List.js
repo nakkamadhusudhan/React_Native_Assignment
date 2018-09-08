@@ -6,7 +6,7 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as productActionCreators from "../actionCreators/product";
 
-let URI = "http://10.110.60.74:4000";
+let URI = "http://10.110.60.81:4000";
 class List extends Component {
   constructor(props) {
     super(props);
